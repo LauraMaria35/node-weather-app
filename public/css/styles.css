@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(../images/bg-image.jpg);
+    background-size: cover;
+}
+img{
+    display: block;
+    width: fit-content;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.main-content a:hover{
+text-decoration: none;
+color: white;
+background-color: #333333;
+}
+
+/* footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+} */
+
+/*footer*/
+
+footer {
+    
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    box-shadow: 2px 2px 12px 0px rgb(127, 126, 126);
+    padding-top: 16px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    color: white;
+    background-color: black;
+}
+
+footer p {
+    font-size: 17px;
+    padding-bottom: 13px;
+}
+
+#copyRight {
+    font-family: monoton;
+    font-weight: bold;
+    padding-top: 7px;
+    color: black;
+    position: fixed;
+    right: 4%;
+    top: 94%;
+}
+
+@media (max-width:480px) {
+    #copyRight {
+        font-size: 14px;
+        padding-bottom: 8px;
+    }
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+header a:hover{
+    color: white;
+    background-color: #333333;
+    padding: 2px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #464646;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+.error-image{
+    background-image: url(../images/error.jpg);
+}
+
+.error-message{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: -2px -2px 0 rgb(245, 246, 247),
+    2px -2px 0 rgb(245, 246, 247),
+    -2px 2px 0 rgb(245, 246, 247),
+    2px 2px 0 rgb(245, 246, 247),
+    -3px 0 0 rgb(245, 246, 247),
+    3px 0 0 rgb(245, 246, 247),
+    0 -3px 0 rgb(245, 246, 247),
+    0 3px 0 rgb(245, 246, 247);
+} 
+
+input{background-color: #333333;
+    color: white;
+    padding: 8px;
+    border: 1px soid #333333;
+    font-size: large;
+}
+
+::placeholder{
+    color: white;
+    opacity: .5;
+}
+
+button{
+    cursor: pointer;
+    border: 1px, solid, #888888;
+    background-color: white;
+    color: #333333;
+    padding: 8px;
+font-weight: bold;
+font-size: large;
+}
+
+button:hover {
+    background-color: #333333;
+    color: white;
+    font-weight:300;
+}
+
+/* loader */
+
+#load1 {
+    position: relative;
+    display: flex;
+   
+    left: 15%;
+    top: 15%;
+}
+
+.point {
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: -15px;
+    animation: loading1 .8s infinite;
+}
+@keyframes loading1 {
+    0%{
+    transform: scale(0.2);
+    }60%{
+    transform: scale(1);
+    }90%{
+    transform: scale(1);
+    }100%{
+    transform: scale(0.2);
+    }
+}
+
+#punct2{
+    animation-delay: 0.2s;
+}
+#punct3{
+    animation-delay: 0.4s;
+}
+
+
+p{
+    font-size: larger;
+    padding-bottom: 10px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#message-1{
+    padding-top: 12px;
+}
+
+#help-body{
+    background-image: url(../images/under-construction.jpg);
+    background-size: cover;
+}
