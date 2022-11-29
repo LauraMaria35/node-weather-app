@@ -23,6 +23,7 @@ img{
 
 .main-content {
     flex-grow: 1;
+    z-index: 1;
 }
 
 .main-content a:hover{
@@ -202,3 +203,35 @@ p{
     background-image: url(../images/under-construction.jpg);
     background-size: cover;
 }
+
+
+#lucht {
+    width: 960px;
+    height: 400px;
+    background-color: rgb(2, 2, 112);
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    }
+    
+    .ster{
+        width: 4px;
+        height: 4px;
+        background-color: white;
+        border-radius: 4px;
+        position: absolute;
+        animation: knipper 2s ease-in-out infinite;
+        animation-fill-mode: both;
+    }
+    
+    @keyframes knipper{
+        0%{
+    opacity: 1;
+        }40%{
+    opacity: 0;
+        }60%{
+            opacity:0;
+        }100%{
+            opacity: 1; 
+        }
+    }
