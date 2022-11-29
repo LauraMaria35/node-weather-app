@@ -137,18 +137,18 @@ header a {
 }
 
 .error-message{
-    font-size: 40px;
+    font-size: 50px;
     font-weight:lighter;
     text-align: center;
     padding-top: 50px;
-    text-shadow: -2px -2px 0 rgb(245, 246, 247),
-    2px -2px 0 rgb(245, 246, 247),
-    -2px 2px 0 rgb(245, 246, 247),
-    2px 2px 0 rgb(245, 246, 247),
-    -3px 0 0 rgb(245, 246, 247),
-    3px 0 0 rgb(245, 246, 247),
-    0 -3px 0 rgb(245, 246, 247),
-    0 3px 0 rgb(245, 246, 247);
+    text-shadow: -1px -1px 0 rgb(245, 246, 247),
+    1px -1px 0 rgb(245, 246, 247),
+    -1px 1px 0 rgb(245, 246, 247),
+    1px 1px 0 rgb(245, 246, 247),
+    -2px 0 0 rgb(245, 246, 247),
+    2px 0 0 rgb(245, 246, 247),
+    0 -2px 0 rgb(245, 246, 247),
+    0 2px 0 rgb(245, 246, 247);
 } 
 
 input{background-color: #000000;
