@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     /*background-image: url(../images/bg-image.jpg);*/
-    background-color: blue;
+    background-color: rgb(8, 8, 151);
     background-size: cover;
 }
 img{
@@ -62,7 +62,7 @@ footer p {
     font-family: monoton;
     font-weight: bold;
     padding-top: 7px;
-    color: black;
+    color: white;
     position: fixed;
     right: 4%;
     top: 94%;
@@ -92,7 +92,7 @@ h1 {
 }
 
 header a {
-    color: #464646;
+    color: white;
     margin-right: 16px;
     text-decoration: none;
 }
