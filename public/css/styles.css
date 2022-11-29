@@ -28,7 +28,7 @@ img{
 .main-content a:hover{
 text-decoration: none;
 color: white;
-background-color: #333333;
+background-color:black;
 }
 
 /* footer {
@@ -82,7 +82,7 @@ header {
 
 header a:hover{
     color: white;
-    background-color: #333333;
+    background-color: black;
     padding: 2px;
 }
 
@@ -120,10 +120,10 @@ header a {
     0 3px 0 rgb(245, 246, 247);
 } 
 
-input{background-color: #333333;
+input{background-color: #000000;
     color: white;
     padding: 8px;
-    border: 1px soid #333333;
+    border: 1px soid #000000;
     font-size: large;
 }
 
@@ -136,14 +136,14 @@ button{
     cursor: pointer;
     border: 1px, solid, #888888;
     background-color: white;
-    color: #333333;
+    color: #000000;
     padding: 8px;
 font-weight: bold;
 font-size: large;
 }
 
 button:hover {
-    background-color: #333333;
+    background-color: #000000;
     color: white;
     font-weight:300;
 }
