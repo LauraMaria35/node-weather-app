@@ -26,6 +26,16 @@ weatherForm.addEventListener('submit', (e) => {
 })
 
 
+let sterren = document.querySelectorAll(".ster");
+
+for (let i = 0; i < sterren.length; i++) {
+    let randomLeft = 1316 * Math.random() + 2;
+    sterren[i].style.left = randomLeft + "px";
+    let randomTop = 668 * Math.random() + 2;
+    sterren[i].style.top = randomTop + "px";
+    let randomKnipper = 2 * Math.random() + 0.5;
+    sterren[i].style.animationDelay = randomKnipper + "s";
+}
 
 
 
