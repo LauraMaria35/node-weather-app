@@ -50,7 +50,7 @@ img{
 
 .main-content {
     position: absolute;
-    left: 40%;
+    left: 30%;
     top: 80px;
     flex-grow: 1;
     z-index: 1;
