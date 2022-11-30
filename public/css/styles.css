@@ -236,6 +236,10 @@ p{
     padding-top: 12px;
 }
 
+#message-2{
+    max-width: 600px;
+}
+
 #help-body{
     background-image: url(../images/under-construction.jpg);
     background-size: cover;
