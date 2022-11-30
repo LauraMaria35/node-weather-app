@@ -166,8 +166,8 @@ input{background-color: #000000;
 }
 
 ::placeholder{
-    color: rgb(225, 198, 164);
-    opacity: .5;
+    color: rgb(255, 236, 214);
+    opacity: .6;
 }
 
 button{
