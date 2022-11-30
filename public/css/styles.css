@@ -56,12 +56,18 @@ img{
     z-index: 1;
 }
 
+
+.main-content a{
+    color: darksalmon;
+}
 .main-content a:hover{
 text-decoration: none;
 color: white;
 background-color:black;
 }
-
+.main-content h2{
+    max-width: 300px;
+    }
 /* footer {
     color: #888888;
     border-top: 1px solid #eeeeee;
