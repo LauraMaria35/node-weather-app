@@ -166,13 +166,12 @@ input{background-color: #000000;
 }
 
 ::placeholder{
-    color: white;
-    opacity: .5;
+    color: burlywood;
 }
 
 button{
     cursor: pointer;
-    border: 1px, solid, #888888;
+    border: 1px, solid, burlywood;
     background-color: white;
     color: #000000;
     padding: 8px;
